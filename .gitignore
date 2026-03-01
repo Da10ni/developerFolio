@@ -12,8 +12,6 @@
 
 # misc
 .DS_Store
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -25,3 +23,8 @@ yarn-error.log*
 #user generated content
 public/profile.json
 public/blogs.json
+config.bat
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+.env
