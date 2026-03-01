@@ -20,43 +20,51 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Muhammad Moiz",
+  title: "Hi, I'm Muhammad Moiz",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A Senior Software Engineer & Architect with 10+ years of experience designing and implementing high-performance, scalable, fault-tolerant applications. Expert in Java, Spring Boot, React, AWS, Microservices, and AI-powered systems. Known for leading offshore teams, mentoring engineers, and delivering mission-critical applications under tight deadlines."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "", // Set to empty to hide the button or add your Google Drive resume link
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/muhammadmoiz", // Update with your GitHub username
+  linkedin: "https://www.linkedin.com/in/muhammad-m-0a9097241",
+  gmail: "muhammadmoiz65@gmail.com",
+  // gitlab: "https://gitlab.com/",
+  // facebook: "https://www.facebook.com/",
+  // medium: "https://medium.com/@",
+  // stackoverflow: "https://stackoverflow.com/users/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 // Skills Section
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "SENIOR SOFTWARE ARCHITECT WHO BUILDS SCALABLE, HIGH-PERFORMANCE ENTERPRISE SYSTEMS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Design and implement highly scalable microservices architectures using Java, Spring Boot, and Spring Cloud"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Build interactive, high-performance frontends with React, TypeScript, Redux, and modern UI frameworks"
+    ),
+    emoji(
+      "⚡ Architect cloud-native solutions on AWS with Kubernetes, Docker, and serverless technologies"
+    ),
+    emoji(
+      "⚡ Develop AI-powered applications integrating Machine Learning models with production systems"
+    ),
+    emoji(
+      "⚡ Lead technical teams, conduct code reviews, and mentor engineers in best practices"
     )
   ],
 
@@ -65,56 +73,68 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Spring Boot",
+      fontAwesomeClassname: "fas fa-leaf"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "TypeScript",
+      fontAwesomeClassname: "fab fa-js-square"
+    },
+    {
+      skillName: "React",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Kubernetes",
+      fontAwesomeClassname: "fas fa-dharmachakra"
+    },
+    {
+      skillName: "Database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Kafka",
+      fontAwesomeClassname: "fas fa-stream"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
+    {
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "Swift",
+      fontAwesomeClassname: "fab fa-swift"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +146,28 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "London South Bank University",
+      logo: require("./assets/images/lsbuLogo.png"),
+      subHeader: "BSc. Hons, Computer Science (In Progress)",
+      duration: "Currently Pursuing",
+      desc: "Advancing knowledge in modern computing paradigms and software engineering principles.",
+      descBullets: []
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "Sukkur IBA University",
+      logo: require("./assets/images/sukkurIBALogo.png"),
+      subHeader: "Master of Science in Computer Science",
+      duration: "",
+      desc: "Advanced studies in computer science with focus on software engineering and system design.",
+      descBullets: []
+    },
+    {
+      schoolName: "Sukkur IBA University",
+      logo: require("./assets/images/sukkurIBALogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "",
+      desc: "Foundation in computer science, algorithms, data structures, and software development.",
+      descBullets: []
     }
   ]
 };
@@ -153,16 +178,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Backend (Java, Spring Boot, Microservices)",
+      progressPercentage: "95%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Frontend (React, TypeScript, Angular)",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Cloud & DevOps (AWS, Kubernetes, Docker)",
+      progressPercentage: "92%"
+    },
+    {
+      Stack: "System Architecture & Design",
+      progressPercentage: "95%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +203,98 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Technical Leader",
+      company: "Oliv",
+      companylogo: require("./assets/images/olivLogo.png"),
+      date: "May 2023 – Present",
+      desc: "Leading MENAP Recruitment platform with focus on Internships. Key architect in Linkstar's acquisition of Oliv.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Architected Kafka integration for event-driven microservices with real-time communication",
+        "Led development of Olivia AI recommendation system using ML models with Java & Spring Boot",
+        "Designed CI/CD pipelines with AWS CodePipeline, Docker, and EKS for containerized workloads",
+        "Built real-time chat using WebSockets and implemented Stripe subscription system",
+        "Trained teams on React Hooks, Context API, Redux for high-performance frontend development"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Technical Leader",
+      company: "Linkstar",
+      companylogo: require("./assets/images/linkstarLogo.png"),
+      date: "May 2022 – Aug 2023",
+      desc: "No-Code Portfolio Builder and Freelance Marketplace. Architected cloud-native platform transformation.",
+      descBullets: [
+        "Redesigned monolithic architecture to microservices using Docker, Kubernetes on AWS",
+        "Achieved 10x faster disaster recovery, 2x faster deployments, 2x improved database performance",
+        "Built RESTful APIs with OAuth2/JWT, employed Kafka for event-driven architecture",
+        "Mentored engineers in Spring Cloud, Kafka streams, AWS Lambda, Kubernetes Helm charts",
+        "Established monitoring with ELK Stack ensuring 99% uptime"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Technical Leader - Consultant",
+      company: "Zero Vertical Labs LLC",
+      companylogo: require("./assets/images/zeroVerticalLogo.png"),
+      date: "Oct 2022 – Present",
+      desc: "Consulting for Big 4 firms and drone defense startups on enterprise modernization projects.",
+      descBullets: [
+        "Modernized legacy Apache Struts apps to microservices with Spring Cloud and Docker",
+        "Developed micro frontends using Web Components and single-spa for role-based UI isolation",
+        "Built 3D interactive map using WebGL and Three.js for real-time drone path visualization",
+        "Integrated SSO with OAuth 2.0, OpenID Connect, and Keycloak across multiple modules",
+        "Applied CQRS and Event Sourcing patterns for high-performance systems"
+      ]
+    },
+    {
+      role: "Senior Software Engineer - Consultant",
+      company: "mLogica LLC",
+      companylogo: require("./assets/images/mlogicaCompanyLogo.webp"),
+      date: "Dec 2021 – Sept 2024",
+      desc: "Led offshore team of 25 engineers for Kaiser Permanente's KP HealthConnect and FedEx modernization.",
+      descBullets: [
+        "Designed Medicare/Medicaid modules and PreAuth Check for real-time insurance validation",
+        "Managed migration from IBM Z/OS Mainframe to AWS infrastructure",
+        "Developed AutoML and GenAI modules with Python ML libraries and Spring Boot backend",
+        "Built AI-driven database migration tool supporting legacy to modern DB conversions",
+        "Utilized HL7 v3 and FHIR standards for healthcare interoperability"
+      ]
+    },
+    {
+      role: "Senior Software Engineer - Consultant",
+      company: "Aravez",
+      companylogo: require("./assets/images/aravezLogo.webp"),
+      date: "Dec 2020 – Dec 2021",
+      desc: "Built Sawah super app for Saudi tourists and government compliance platforms.",
+      descBullets: [
+        "Developed scalable apps with Java, Spring Boot, React, AWS Lambda, and DynamoDB",
+        "Integrated Nafath SSO for government access standards compliance",
+        "Orchestrated microservices using Kubernetes on Amazon EKS",
+        "Built Enjz platform integrating secure access to government and private services"
+      ]
+    },
+    {
+      role: "Full Stack Developer",
+      company: "Click Control",
+      companylogo: require("./assets/images/clickControlLogo.webp"),
+      date: "Dec 2018 – Dec 2020",
+      desc: "Designed ERP solution used by 50+ organizations and 300,000+ users worldwide.",
+      descBullets: [
+        "Built desktop and mobile apps using AngularJS with seamless cross-platform experience",
+        "Integrated Stripe, Twilio, and Firebase for payments, communication, and real-time sync",
+        "Implemented real-time data processing using Apache Kafka and Apache Spark"
+      ]
+    },
+    {
+      role: "Software Developer",
+      company: "ShareTheLoad Pty. Ltd.",
+      companylogo: require("./assets/images/sharetheloadLogo.webp"),
+      date: "Feb 2013 – Dec 2018",
+      desc: "Developed real-time parcel delivery iOS app with live tracking and payment features.",
+      descBullets: [
+        "Built iOS app using Swift/Objective-C with Core Location, WebSocket live tracking",
+        "Developed RESTful APIs in Spring MVC for authentication, tracking, and payments",
+        "Integrated Apple Push Notifications, Stripe payments, and KYC module with Onfido/Jumio",
+        "Designed admin dashboard with Spring MVC and real-time WebSocket data updates"
+      ]
     }
   ]
 };
@@ -206,37 +304,56 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "ENTERPRISE SYSTEMS AND PRODUCTS I HELPED ARCHITECT AND BUILD",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
+      image: require("./assets/images/kaiserLogo.webp"),
+      projectName: "KP HealthConnect - Kaiser Permanente",
+      projectDesc: "Led offshore team of 25 engineers building healthcare portal with EHR, appointments, Medicare/Medicaid modules. Migrated IBM Z/OS Mainframe to AWS.",
+      footerLink: []
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      image: require("./assets/images/fedexLogo.webp"),
+      projectName: "FedEx Warehousing System Modernization",
+      projectDesc: "End-to-end cloud migration of warehousing and logistics system to AWS. Re-architected SAS Object Script to Java microservices with zero downtime.",
+      footerLink: []
+    },
+    {
+      image: require("./assets/images/mlogicaLogo.webp"),
+      projectName: "Cap*M - AutoML and GenAI Platform",
+      projectDesc: "Built hyperscale big data platform with ML models using Scikit-learn, TensorFlow, PyTorch. Spring Boot backend with React frontend.",
+      footerLink: []
+    },
+    {
+      image: require("./assets/images/starMLogo.webp"),
+      projectName: "Star*M - AI Database Migration Tool",
+      projectDesc: "Fully automated AI-driven modernization platform addressing 7 Rs of cloud migration with AWS Lambda, Step Functions, and EKS.",
+      footerLink: []
+    },
+    {
+      image: require("./assets/images/awsLogo.webp"),
+      projectName: "Dahlia & Tulip - Mainframe Modernization",
+      projectDesc: "Language conversion tools for COBOL, PL/I, ASSEMBLER to Java. Featured on AWS Mainframe Modernization capabilities.",
+      footerLink: []
+    },
+    {
+      image: require("./assets/images/sawahLogo.webp"),
+      projectName: "Sawah - Saudi Arabia Tourism Super App",
+      projectDesc: "Super app for tourists with social media integration and localization. Built with Java, Spring Boot, React, and AWS services.",
+      footerLink: []
+    },
+    {
+      image: require("./assets/images/enjzLogo.webp"),
+      projectName: "Enjz - National Events Center",
+      projectDesc: "Government platform integrating secure access with MoFA and Nafath. Built with Micronaut, Spring Boot, Kafka, and gRPC.",
+      footerLink: []
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -246,58 +363,50 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Certifications & Achievements"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Professional certifications demonstrating expertise in enterprise software and security",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Oracle Certified NAAC & NA TAG Consulting HIPAA and HITECH Trainer",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+        "Certified trainer for healthcare data privacy and security compliance standards.",
+      image: require("./assets/images/oracleLogo.png"),
+      imageAlt: "Oracle Logo",
+      footerLink: []
     },
     {
-      title: "Google Assistant Action",
+      title: "Oracle OSSA Global Core Certified Consultant",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
+        "Oracle Software Security Assurance certification for secure software development.",
+      image: require("./assets/images/oracleLogo.png"),
+      imageAlt: "Oracle Logo",
+      footerLink: []
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
+      title: "Oracle Software Security Assurance",
+      subtitle:
+        "Expertise in implementing security best practices in Oracle-based solutions.",
+      image: require("./assets/images/oracleLogo.png"),
+      imageAlt: "Oracle Logo",
+      footerLink: []
+    },
+    {
+      title: "Oracle CISAT Certification",
+      subtitle:
+        "Oracle's Certified Implementation Specialist certification.",
+      image: require("./assets/images/oracleLogo.png"),
+      imageAlt: "Oracle Logo",
+      footerLink: []
+    },
+    {
+      title: "Kaiser Permanente HIPAA and HITECH Certification",
+      subtitle:
+        "Healthcare industry compliance certification for handling protected health information.",
+      image: require("./assets/images/kaiserLogo.webp"),
+      imageAlt: "Kaiser Permanente Logo",
+      footerLink: []
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -308,23 +417,10 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+    "Sharing knowledge about software architecture, best practices, and emerging technologies.",
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
+  blogs: [],
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -332,31 +428,22 @@ const blogSection = {
 const talkSection = {
   title: "TALKS",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "I LOVE TO SHARE MY KNOWLEDGE AND MENTOR ENGINEERS"
   ),
 
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  talks: [],
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  subtitle: "I LOVE TO TALK ABOUT TECHNOLOGY AND ARCHITECTURE",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: true // Set false to hide this section, defaults to true
+  podcast: [],
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -369,21 +456,21 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Looking for a Technical Leader or Architect? Let's discuss your project requirements.",
+  number: "+92-318-023-1378",
+  email_address: "muhammadmoiz65@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
